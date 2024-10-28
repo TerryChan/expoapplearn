@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "ExpoAppLearn",
+    "slug": "expoapplearn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.terrychen.expoapplearn"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.terrychen.expoapplearn"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f8d32b2f-1ce4-431c-b80e-3026bd4d96a1"
+      }
+    },
+    "owner": "terrychen",
+    "updates": {
+      "url": "https://u.expo.dev/f8d32b2f-1ce4-431c-b80e-3026bd4d96a1"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
